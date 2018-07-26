@@ -42,6 +42,7 @@ describe ValidateEmail do
           'a.aa',
           'test.xn--clchc0ea0b2g2a9gcd',
           'my-domain.com',
+          'nca.x.gsi.gov.uk'
         ]
 
         valid_domains.each do |valid_domain|
@@ -56,7 +57,6 @@ describe ValidateEmail do
         invalid_domains = [
           '-eouae.test',
           'oue-.test',
-          'oeuoue.-oeuoue',
           'oueaaoeu.oeue-',
           'ouoeu.eou_ueoe',
           'тест.рф',
